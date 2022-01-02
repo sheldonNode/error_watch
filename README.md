@@ -28,5 +28,7 @@ TODO:
 - if necessary restart the server
 - send notification (email, telegram ...)
 - find a better way for automatic restart :-)
+- think about pragmatic failover
+- 
 
  

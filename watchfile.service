@@ -1,0 +1,17 @@
+[Unit]
+Description=watchfile in upload-share folder
+
+[Service]
+PIDFile=/home/escra/watch.pid
+User=escra
+Restart=always
+Environment=DEBUG=*
+KillSignal=SIGQUIT
+WorkingDirectory=/home/escra/scripts/
+ExecStart=/bin/bash watchfiles.sh
+
+
+[Install]
+WantedBy=multi-user.target
+
+coumes

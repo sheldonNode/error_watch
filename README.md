@@ -24,7 +24,9 @@ the file has no size limit!
 
 TODO:
 - write the logfile as user
-- for every error: if the server is offline then start the xxnetwork service
+- for every error: if the server is offline then restart the xxnetwork service
 - if necessary restart the server
 - send notification (email, telegram ...)
+- find a better way for automatic restart :-)
 
+ 

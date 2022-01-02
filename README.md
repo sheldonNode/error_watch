@@ -22,3 +22,4 @@ TODO:
 - for every error: if the server is offline then start the xxnetwork service
 - if necessary restart the server
 - send notification (email, telegram ...)
+

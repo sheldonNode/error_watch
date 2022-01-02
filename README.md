@@ -29,6 +29,6 @@ TODO:
 - send notification (email, telegram ...)
 - find a better way for automatic restart :-)
 - think about pragmatic failover
-- 
+- when we are going to mainnet, we need a server for testing ;-) (and development)
 
  

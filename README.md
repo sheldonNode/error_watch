@@ -9,9 +9,14 @@ so this is just a workaround. we should find a better way to make the server mor
 
 Installation:
 
+sudo apt install inotify-tools
+
 cp watchlog.sh to /opt/xxnetwork
+
 cp watchlog.service to /etc/systemd/sytem
+
 sudo systemctl enable watchlog.service
+
 sudo systemctl start watchlog.service
 
 if an error occurs, it is written to /opt/xxnetwork/nod_error_reboot.log

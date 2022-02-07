@@ -1,17 +1,15 @@
 [Unit]
-Description=watchfile in upload-share folder
+Description=ERROR watchfile for xxnetwork-log folder
 
 [Service]
-PIDFile=/home/escra/watch.pid
-User=escra
+PIDFile=/opt/xxnetwork/watch.pid
+User=XX
 Restart=always
 Environment=DEBUG=*
 KillSignal=SIGQUIT
-WorkingDirectory=/home/escra/scripts/
+WorkingDirectory=/opt/xxnetwork/
 ExecStart=/bin/bash watchfiles.sh
 
 
 [Install]
 WantedBy=multi-user.target
-
-coumes

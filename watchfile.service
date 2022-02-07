@@ -8,7 +8,7 @@ Restart=always
 Environment=DEBUG=*
 KillSignal=SIGQUIT
 WorkingDirectory=/opt/xxnetwork/
-ExecStart=/bin/bash watchfiles.sh
+ExecStart=/bin/bash watchlog.sh
 
 
 [Install]

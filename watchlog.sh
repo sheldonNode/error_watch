@@ -22,4 +22,4 @@ while read dir ev file; do
    fi
   fi
  fi
-
+done

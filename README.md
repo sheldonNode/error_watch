@@ -14,6 +14,7 @@ sudo apt install inotify-tools
 cp watchlog.sh to /opt/xxnetwork
 
 cp watchlog.service to /opt/xxnetwork
+
 sudo ln -s /etc/systemd/sytem/watchlog.service /opt/xxnetwork/watchlog.service
 
 sudo systemctl enable watchlog.service

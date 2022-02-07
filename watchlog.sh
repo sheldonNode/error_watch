@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR=/opt/xxnetwork/node-logs
 FILE=node.log
-GUAC_ERROR=CUD_ERROR_NO_DEVICE
+GUAC_ERROR=CUD_ERROR
 ERROR='ERROR\|FATAL'
 LOG_WATCH=/opt/xxnetwork/node_error_reboot.log
 

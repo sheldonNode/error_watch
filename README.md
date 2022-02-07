@@ -1,7 +1,7 @@
 # error_watch
 respond to special error in xxnetwork
 
-watch on ERROR in node.log (e.g. CUDA_ERROR_NO_DEVICE). 
+watch on ERROR in cmix.log (e.g. CUDA_ERROR_NO_DEVICE, CUDA_ERROR_SYSTEM_DRIVER_MISMATCH). 
 CUDA_ERROR_NO_DEVICE: the graphic card error can occur after the ubuntu kernel update 
 can lead to a standstill of the node
 
